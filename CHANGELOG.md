@@ -1,4 +1,4 @@
-## 1.0.3
+## 1.0.5
 
 * **Bug Fixes**: 
   - Resolved an issue where the refresh indicator would not display correctly on smaller devices.
@@ -9,6 +9,13 @@
 * **New Features**: 
   - Added support for customizable animation styles for the refresh indicator.
   - Introduced a `refreshComplete` callback that can be triggered after the refresh operation is complete.
+## 1.0.3
+
+
+* **Documentation**: 
+  - Updated README.md with detailed usage examples and improved explanations for parameters.
+  - Added comments to code examples for better understanding of how to implement the refresh logic.
+
 
 ## 1.0.1
 
