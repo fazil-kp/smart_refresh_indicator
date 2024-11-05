@@ -1,4 +1,4 @@
-## 0.0.2
+## 0.0.3
 
 * **Enhancements**: Improved performance of the refresh indicator for smoother user experience.
 * **Bug Fixes**: 
@@ -7,6 +7,12 @@
 * **Documentation**: 
   - Updated README.md with detailed usage examples and improved explanations for parameters.
   - Added comments to code examples for better understanding of how to implement the refresh logic.
+* **New Features**: 
+  - Added support for customizable animation styles for the refresh indicator.
+  - Introduced a `refreshComplete` callback that can be triggered after the refresh operation is complete.
+
+## 0.0.2
+
 * **New Features**: 
   - Added support for customizable animation styles for the refresh indicator.
   - Introduced a `refreshComplete` callback that can be triggered after the refresh operation is complete.
