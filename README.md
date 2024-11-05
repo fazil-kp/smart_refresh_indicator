@@ -11,7 +11,8 @@ A customizable Flutter refresh indicator widget with support for background and 
 
 ## Examples
 
-<video controls src="refresh_indicator.mp4" title="Title"></video>
+[<video controls src="refresh_indicator.mp4" title="Title"></video>](https://github.com/user-attachments/assets/4ccb8df9-b429-4554-be9b-72d948d02fda)
+
 
 ## Installation
 
