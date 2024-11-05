@@ -21,7 +21,7 @@ Add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  smart_refresh_indicator: ^0.0.1
+  smart_refresh_indicator: latest_version
 ```
 
 ## Usage
