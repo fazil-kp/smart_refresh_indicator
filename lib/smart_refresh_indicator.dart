@@ -7,6 +7,11 @@ class SmartRefreshIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RefreshIndicator(backgroundColor: Colors.white, color: Colors.red, onRefresh: onRefresh, child: child);
+    return RefreshIndicator(
+      backgroundColor: Colors.white,
+      color: Colors.red,
+      onRefresh: onRefresh,
+      child: child,
+    );
   }
 }

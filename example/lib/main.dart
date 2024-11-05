@@ -10,19 +10,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Smart Refresh Indicator Example'),
-      ),
-      body: SmartRefreshIndicator(
-        onRefresh: () async {},
-        child: ListView.builder(
-          itemCount: 30,
-          itemBuilder: (context, index) {
-            return ListTile(
-              title: Text('Item $index'),
-            );
-          },
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Smart Refresh Indicator Example'),
+        ),
+        body: SmartRefreshIndicator(
+          onRefresh: () async {},
+          child: ListView.builder(
+            itemCount: 30,
+            itemBuilder: (context, index) {
+              return ListTile(
+                title: Text('Item $index'),
+              );
+            },
+          ),
         ),
       ),
     );
