@@ -1,6 +1,6 @@
 name: smart_refresh_indicator
 description: "A customizable Flutter refresh indicator widget with support for background and indicator colors."
-version: 1.0.1
+version: 1.0.3
 homepage: https://github.com/fazil-kp/smart_refresh_indicator.git
 
 environment:

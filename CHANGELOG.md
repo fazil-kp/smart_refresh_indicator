@@ -1,6 +1,5 @@
-## 0.0.3
+## 1.0.3
 
-* **Enhancements**: Improved performance of the refresh indicator for smoother user experience.
 * **Bug Fixes**: 
   - Resolved an issue where the refresh indicator would not display correctly on smaller devices.
   - Fixed a bug that caused the indicator to remain visible after the refresh completed if the list was not scrolled to the top.
@@ -10,6 +9,10 @@
 * **New Features**: 
   - Added support for customizable animation styles for the refresh indicator.
   - Introduced a `refreshComplete` callback that can be triggered after the refresh operation is complete.
+
+## 1.0.1
+
+* **Enhancements**: Improved performance of the refresh indicator for smoother user experience.
 
 ## 0.0.2
 
