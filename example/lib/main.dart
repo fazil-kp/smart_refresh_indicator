@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.all(22.0),
                 child: SingleChildScrollView(
-                  physics: AlwaysScrollableScrollPhysics(),
+                  physics: const AlwaysScrollableScrollPhysics(),
                   child: Column(
                     children: [
                       for (int i = 0; i <= 50; i++)
@@ -35,7 +35,12 @@ class MyApp extends StatelessWidget {
                           child: Container(
                             width: MediaQuery.of(context).size.width,
                             decoration: BoxDecoration(color: Colors.black87, borderRadius: BorderRadius.circular(15), boxShadow: const [BoxShadow(color: Colors.black12, blurRadius: 10.0, spreadRadius: 2.0, offset: Offset(2, 2))]),
-                            child: ListTile(leading: const CircleAvatar(backgroundColor: Colors.blue, child: Icon(Icons.person, color: Colors.white)), title: const Text("Fazil", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, color: Colors.white)), subtitle: Text("Flutter Developer", style: TextStyle(fontSize: 14.0, color: Colors.grey[600])), trailing: Icon(Icons.arrow_forward_ios, color: Colors.grey[600])),
+                            child: ListTile(
+                              leading: const CircleAvatar(backgroundColor: Colors.blue, child: Icon(Icons.person, color: Colors.white)),
+                              title: const Text("Fazil", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, color: Colors.white)),
+                              subtitle: Text("Software Developer", style: TextStyle(fontSize: 14.0, color: Colors.grey[600])),
+                              trailing: Icon(Icons.arrow_forward_ios, color: Colors.grey[600]),
+                            ),
                           ),
                         ),
                     ],

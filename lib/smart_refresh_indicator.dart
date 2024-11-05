@@ -3,21 +3,17 @@ import 'package:flutter/material.dart';
 class SmartRefreshIndicator extends StatelessWidget {
   final Widget child;
   final Future<void> Function() onRefresh;
-  const SmartRefreshIndicator(
-      {super.key, required this.child, required this.onRefresh});
+  final Color? backgroundColor;
+  final Color? indicatorColor;
+  const SmartRefreshIndicator({super.key, required this.child, required this.onRefresh, this.backgroundColor, this.indicatorColor});
 
   @override
   Widget build(BuildContext context) {
     return RefreshIndicator(
-      backgroundColor: Colors.white,
-      color: Colors.red,
+      backgroundColor: backgroundColor ?? Colors.white,
+      color: indicatorColor ?? Colors.red,
       onRefresh: onRefresh,
-      child: Container(
-        width: MediaQuery.sizeOf(context).width,
-        height: MediaQuery.sizeOf(context).height,
-        color: Colors.white,
-        child: child,
-      ),
+      child: child, // The child widget itself will handle scrolling
     );
   }
 }
