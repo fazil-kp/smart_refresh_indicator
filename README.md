@@ -8,6 +8,11 @@ A customizable Flutter refresh indicator widget with support for background and 
 - Customizable indicator color
 - Easy to integrate with your Flutter application
 
+
+## Examples
+
+<video controls src="refresh_indicator.mp4" title="Title"></video>
+
 ## Installation
 
 Add the following to your `pubspec.yaml` file:
